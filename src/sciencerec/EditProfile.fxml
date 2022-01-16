@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="628.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sciencerec.EditProfileController">
+   <children>
+      <Button fx:id="btnLogOut" layoutX="517.0" layoutY="33.0" mnemonicParsing="false" onAction="#HandlerLogOut" text="Log Out" />
+      <Button fx:id="btnBack" layoutX="46.0" layoutY="33.0" mnemonicParsing="false" onAction="#HandlerBack" prefHeight="25.0" prefWidth="52.0" text="Back" />
+      <TextField fx:id="txtNume" layoutX="121.0" layoutY="86.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="36.0" layoutY="86.0" prefHeight="25.0" prefWidth="79.0" text="Nume" textAlignment="RIGHT" />
+      <Label alignment="CENTER_RIGHT" layoutX="46.0" layoutY="128.0" prefHeight="17.0" prefWidth="69.0" text="Prenume" />
+      <TextField fx:id="txtPrenume" layoutX="121.0" layoutY="124.0" />
+      <Label alignment="TOP_RIGHT" layoutX="46.0" layoutY="169.0" prefHeight="17.0" prefWidth="69.0" text="Telefon" />
+      <TextField fx:id="txtTelefon" layoutX="121.0" layoutY="165.0" />
+      <Label alignment="TOP_RIGHT" layoutX="46.0" layoutY="209.0" prefHeight="17.0" prefWidth="69.0" text="Specializare" />
+      <TextField fx:id="txtSpecializare" layoutX="121.0" layoutY="205.0" />
+      <Label alignment="TOP_RIGHT" layoutX="46.0" layoutY="247.0" prefHeight="17.0" prefWidth="69.0" text="Hobiuri" />
+      <TextField fx:id="txtHobiuri" layoutX="121.0" layoutY="243.0" />
+      <Label alignment="TOP_RIGHT" layoutX="307.0" layoutY="90.0" prefHeight="17.0" prefWidth="69.0" text="Creator" />
+      <TextField fx:id="txtCreator" editable="false" layoutX="382.0" layoutY="86.0" />
+      <ImageView fx:id="ivPhoto" fitHeight="150.0" fitWidth="200.0" layoutX="332.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="TOP_RIGHT" layoutX="332.0" layoutY="128.0" prefHeight="17.0" prefWidth="69.0" text="Photo" />
+      <Button fx:id="btnLoad" layoutX="413.0" layoutY="124.0" mnemonicParsing="false" onAction="#HandlerLoad" prefHeight="25.0" prefWidth="59.0" text="Load..." />
+      <Button fx:id="btnSave" layoutX="121.0" layoutY="317.0" mnemonicParsing="false" onAction="#HandlerSave" prefHeight="25.0" prefWidth="94.0" text="Save" />
+      <Label fx:id="lblUserType" layoutX="121.0" layoutY="21.0" prefHeight="25.0" prefWidth="329.0" text="User: " />
+   </children>
+</AnchorPane>

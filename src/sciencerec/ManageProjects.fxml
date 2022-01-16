@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="452.0" prefWidth="616.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sciencerec.ManageProjectsController">
+   <children>
+      <Button fx:id="btnLogOut" layoutX="507.0" layoutY="51.0" mnemonicParsing="false" onAction="#HandlerLogOut" text="Log Out" />
+      <Button fx:id="btnBack" layoutX="53.0" layoutY="51.0" mnemonicParsing="false" onAction="#HandlerBack" prefHeight="25.0" prefWidth="52.0" text="Back" />
+      <Button fx:id="btnCreate" layoutX="53.0" layoutY="232.0" mnemonicParsing="false" onAction="#HandlerCreate" prefHeight="25.0" prefWidth="150.0" text="Create Project" />
+      <ListView fx:id="lstProjects" layoutX="327.0" layoutY="101.0" prefHeight="112.0" prefWidth="237.0" />
+      <Button fx:id="btnDelete" layoutX="327.0" layoutY="232.0" mnemonicParsing="false" onAction="#HandlerDelete" prefHeight="25.0" prefWidth="105.0" text="Delete Project" />
+      <Label fx:id="lblDescriere" layoutX="53.0" layoutY="102.0" prefHeight="17.0" prefWidth="138.0" text="Project Description " />
+      <TextField fx:id="txtDescriere" layoutX="53.0" layoutY="119.0" prefHeight="25.0" prefWidth="244.0" />
+      <ComboBox fx:id="cmbProjectType" layoutX="53.0" layoutY="180.0" prefWidth="150.0" />
+      <Label fx:id="lblProjectType" layoutX="53.0" layoutY="163.0" prefHeight="17.0" prefWidth="138.0" text="Project Type" />
+      <Label fx:id="lblDescriere1" layoutX="327.0" layoutY="84.0" prefHeight="17.0" prefWidth="138.0" text="My Projects" />
+      <ListView fx:id="lstUsers" layoutX="53.0" layoutY="311.0" prefHeight="106.0" prefWidth="162.0" />
+      <Label fx:id="lblUsers" layoutX="53.0" layoutY="294.0" prefHeight="17.0" prefWidth="138.0" text="My Users" />
+      <Button fx:id="btnAsignUser" layoutX="256.0" layoutY="352.0" mnemonicParsing="false" onAction="#HandlerAssignUser" prefHeight="25.0" prefWidth="105.0" text="Assign User" />
+      <ListView fx:id="lstAssignments" layoutX="396.0" layoutY="310.0" prefHeight="106.0" prefWidth="170.0" />
+      <Label fx:id="lblAssignments" layoutX="396.0" layoutY="294.0" prefHeight="17.0" prefWidth="138.0" text="Assignments" />
+      <Label fx:id="lblUserType" layoutX="144.0" layoutY="26.0" prefHeight="25.0" prefWidth="329.0" text="User: " />
+   </children>
+</AnchorPane>

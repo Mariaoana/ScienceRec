@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="576.0" prefWidth="737.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sciencerec.MyEduMatController">
+   <children>
+      <Button fx:id="btnLogOut" layoutX="621.0" layoutY="61.0" mnemonicParsing="false" onAction="#HandlerLogOut" text="Log Out" />
+      <Button fx:id="btnBack" layoutX="63.0" layoutY="61.0" mnemonicParsing="false" onAction="#HandlerBack" prefHeight="25.0" prefWidth="52.0" text="Back" />
+      <Button fx:id="btnCreate" layoutX="63.0" layoutY="511.0" mnemonicParsing="false" onAction="#HandlerCreate" prefHeight="25.0" prefWidth="150.0" text="Create Edu Mat" />
+      <ListView fx:id="lstMyEduMats" layoutX="337.0" layoutY="111.0" prefHeight="112.0" prefWidth="343.0" />
+      <Button fx:id="btnDelete" layoutX="337.0" layoutY="234.0" mnemonicParsing="false" onAction="#HandlerDelete" prefHeight="25.0" prefWidth="105.0" text="Delete Edu Mat" />
+      <Label fx:id="lblTitlu" layoutX="63.0" layoutY="271.0" prefHeight="17.0" prefWidth="138.0" text="Titlu" />
+      <TextField fx:id="txtTitlu" layoutX="63.0" layoutY="288.0" prefHeight="25.0" prefWidth="244.0" />
+      <ComboBox fx:id="cmbEduMatType" layoutX="63.0" layoutY="111.0" prefWidth="150.0" />
+      <Label fx:id="lblEduMatType" layoutX="63.0" layoutY="94.0" prefHeight="17.0" prefWidth="138.0" text="Edu Mat Type" />
+      <Label fx:id="lblMyEduMats" layoutX="337.0" layoutY="94.0" prefHeight="17.0" prefWidth="138.0" text="My Edu Mats" />
+      <Label fx:id="lblUserType" layoutX="154.0" layoutY="36.0" prefHeight="25.0" prefWidth="329.0" text="User: " />
+      <ComboBox fx:id="cmbEduMatCategory" layoutX="63.0" layoutY="168.0" prefWidth="150.0" />
+      <Label fx:id="lblEduMatCategory" layoutX="63.0" layoutY="151.0" prefHeight="17.0" prefWidth="138.0" text="Edu Mat Category" />
+      <Label fx:id="lblRevista" layoutX="63.0" layoutY="325.0" prefHeight="17.0" prefWidth="138.0" text="Revista/Conferinta" />
+      <TextField fx:id="txtRevista" layoutX="63.0" layoutY="342.0" prefHeight="25.0" prefWidth="244.0" />
+      <Label fx:id="lblEditura" layoutX="63.0" layoutY="380.0" prefHeight="17.0" prefWidth="138.0" text="Editura" />
+      <TextField fx:id="txtEditura" layoutX="63.0" layoutY="397.0" prefHeight="25.0" prefWidth="244.0" />
+      <Label fx:id="lblAnAparitie" layoutX="63.0" layoutY="439.0" prefHeight="17.0" prefWidth="138.0" text="An Aparitie" />
+      <Spinner fx:id="spnAnAparitie" editable="true" layoutX="64.0" layoutY="456.0" prefHeight="25.0" prefWidth="150.0" />
+      <ListView fx:id="lstMyRecEduMats" layoutX="337.0" layoutY="320.0" prefHeight="112.0" prefWidth="343.0" />
+      <Label fx:id="lblMyRecEduMats" layoutX="337.0" layoutY="303.0" prefHeight="17.0" prefWidth="185.0" text="My Recommended Edu Mats" />
+      <RadioButton fx:id="rbRead" layoutX="337.0" layoutY="448.0" mnemonicParsing="false" text="Read" />
+      <RadioButton fx:id="rbNotRead" layoutX="407.0" layoutY="448.0" mnemonicParsing="false" text="Not Read" />
+      <RadioButton fx:id="rbUseful" layoutX="501.0" layoutY="448.0" mnemonicParsing="false" text="Useful" />
+      <RadioButton fx:id="rbNotUseful" layoutX="573.0" layoutY="448.0" mnemonicParsing="false" text="Not Useful" />
+      <Label fx:id="lblAutori" layoutX="63.0" layoutY="213.0" prefHeight="17.0" prefWidth="138.0" text="Autori" />
+      <TextField fx:id="txtAutori" layoutX="63.0" layoutY="230.0" prefHeight="25.0" prefWidth="244.0" />
+   </children>
+</AnchorPane>

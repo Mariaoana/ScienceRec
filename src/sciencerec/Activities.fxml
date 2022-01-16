@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="303.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sciencerec.ActivitiesController">
+   <children>
+      <Button fx:id="btnLogOut" layoutX="547.0" layoutY="41.0" mnemonicParsing="false" onAction="#HandlerLogOut" prefHeight="23.0" prefWidth="59.0" text="Log Out" />
+      <Button fx:id="btnManagCoord" layoutX="45.0" layoutY="174.0" mnemonicParsing="false" onAction="#HandlerManageCoordinators" prefHeight="32.0" prefWidth="164.0" text="Manage Coordoninators" />
+      <Button fx:id="btnLoginInfo" layoutX="45.0" layoutY="37.0" mnemonicParsing="false" onAction="#HandlerChangeLogin" prefHeight="32.0" prefWidth="164.0" text="Change Login Info" />
+      <Button fx:id="btnEditProfile" layoutX="45.0" layoutY="88.0" mnemonicParsing="false" onAction="#HandlerEditProfile" prefHeight="32.0" prefWidth="164.0" text="Edit Profile" />
+      <Button fx:id="btnManageProjects" layoutX="230.0" layoutY="238.0" mnemonicParsing="false" onAction="#HandlerManageProjects" prefHeight="32.0" prefWidth="176.0" text="Manage Projects" />
+      <Button fx:id="btnManageUsers" layoutX="230.0" layoutY="174.0" mnemonicParsing="false" onAction="#HandlerManageUsers" prefHeight="32.0" prefWidth="176.0" text="Manage Users" />
+      <Button fx:id="btnManageEduMat" layoutX="430.0" layoutY="174.0" mnemonicParsing="false" onAction="#HandlerManageEduMat" prefHeight="32.0" prefWidth="176.0" text="Manage Educational Materials" />
+      <Label fx:id="lblUserType" layoutX="230.0" layoutY="14.0" prefHeight="25.0" prefWidth="244.0" text="User: " />
+      <Button fx:id="btnMyEduMat" layoutX="430.0" layoutY="238.0" mnemonicParsing="false" onAction="#HandlerMyEduMat" prefHeight="32.0" prefWidth="176.0" text="My Educational Materials" />
+   </children>
+</AnchorPane>
